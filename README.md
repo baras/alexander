@@ -7,8 +7,11 @@ An example Semantic UI portfolio website. http://alexander.earth23.com/
 
 ## Install
 * Clone the repository.
+
 HTTPS: `git clone https://github.com/ybaras/alexander.git`
+
 OR
+
 SSH: `git clone git@github.com:ybaras/alexander.git`
 
 * `cd alexander/`
