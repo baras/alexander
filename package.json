@@ -1,0 +1,23 @@
+{
+  "name": "alexander",
+  "version": "1.0.0",
+  "description": "An example Semantic UI portfolio website.",
+  "main": "index.js",
+  "dependencies": {
+    "semantic-ui": "^2.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ybaras/alexander.git"
+  },
+  "author": "Yoav Baras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ybaras/alexander/issues"
+  },
+  "homepage": "http://alexander.earth23.com"
+}
