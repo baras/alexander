@@ -23,6 +23,9 @@ npm install
 Semantic UI will configure itself using an install script built into the package.
 After setup you can use gulp to build your project's css:
 ```bash
+# Enter the semantic directory
+cd semantic
+
 # Build all files
 gulp build
 
