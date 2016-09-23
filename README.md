@@ -2,19 +2,30 @@
 An example Semantic UI portfolio website. http://alexander.earth23.com/
 
 ## Requirements
-* Node.js
+* Node.js with npm
+(see [Installing Node.js](https://nodejs.org/en/download/package-manager/))
 * Gulp (`npm install -g gulp`)
 
-## Install
-* Clone the repository.
+## Setup
 
-HTTPS: `git clone https://github.com/ybaras/alexander.git`
+```bash
+# Clone the repository
+git clone https://github.com/ybaras/alexander.git
 
-OR
+# Enter the project's directory
+cd alexander
 
-SSH: `git clone git@github.com:ybaras/alexander.git`
+# Install Semantic UI dependencies
+npm install
+```
+### Build tools
 
-* `cd alexander/`
-* `npm install semantic-ui --save`
-* `cd semantic/`
-* `gulp build`
+Semantic UI will configure itself using an install script built into the package.
+After setup you can use gulp to build your project's css:
+```bash
+# Build all files
+gulp build
+
+# Watch files
+gulp watch
+```
