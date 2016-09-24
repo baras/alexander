@@ -1,5 +1,7 @@
 # Alexander
-An example Semantic UI portfolio website. http://alexander.earth23.com/
+An example Semantic UI portfolio website.
+
+[Live preview](http://alexander.earth23.com/)
 
 ## Requirements
 * Node.js with npm
@@ -9,7 +11,9 @@ An example Semantic UI portfolio website. http://alexander.earth23.com/
 ## Setup
 
 ```bash
-# Clone the repository
+# Clone the repository via SSH
+git clone git@github.com:ybaras/alexander.git
+#Or HTTPS
 git clone https://github.com/ybaras/alexander.git
 
 # Enter the project's directory
@@ -17,6 +21,15 @@ cd alexander
 
 # Install Semantic UI dependencies
 npm install
+```
+Use gulp to build the .js and .css files
+```bash
+# Enter the semantic directory
+cd semantic
+
+# Build all files
+gulp build
+
 ```
 ### Build tools
 
