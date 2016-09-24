@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Yoav -- Developer -- @yBaras
+
+# THANKS
+
+    Gizra Internet Solutions Ltd.
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Semantic UI
